@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shopping fun</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="details">Details</string>
+    <string name="next">Next</string>
+    <string name="enjoy">Enjoy modern app :)</string>
+    <string name="finish">Finish</string>
+    <string name="screen1">Easy payment methods</string>
+    <string name="screen2">Shopping is make your soul happy!</string>
+    <string name="screen3">Enjoy your life!</string>
+</resources>
