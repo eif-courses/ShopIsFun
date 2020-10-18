@@ -16,7 +16,7 @@ class SplashScreenFragment : Fragment(R.layout.fragment_splash_screen) {
         super.onViewCreated(view, savedInstanceState)
         Handler().postDelayed({
             if(onBoarding()){
-                findNavController().navigate(R.id.action_splashScreenFragment_to_loginFragment)
+                findNavController().navigate(R.id.action_splashScreenFragment_to_homeFragment)
             }else{
                 findNavController().navigate(R.id.action_splashScreenFragment_to_viewPagerFragment2)
             }

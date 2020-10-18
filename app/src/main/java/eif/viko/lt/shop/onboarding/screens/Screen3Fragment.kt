@@ -17,7 +17,7 @@ class Screen3Fragment : Fragment(R.layout.fragment_screen3) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         view.screen3_btn.setOnClickListener {
-            findNavController().navigate(R.id.action_viewPagerFragment2_to_loginFragment)
+            findNavController().navigate(R.id.action_viewPagerFragment2_to_homeFragment)
             onBoardingFinish()
         }
     }
